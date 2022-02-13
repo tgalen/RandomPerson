@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(187, 186, 186);
+}
+
+#header {
+    text-align: center;
+}
+
+#main {
+    padding-left: 75px;
+}
+
+ul {
+    padding-left: 0;
+    display: block;
+}

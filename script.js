@@ -39,8 +39,6 @@ fetch("https://randomuser.me/api")
             personDisplayInfo.push({ Country: `${personProfile.location.country}` });
             personDisplayInfo.push({ City: `${personProfile.location.city}` });
             personDisplayInfo.push({ Email: `${personProfile.email}` });
-
-            return personDisplayInfo;
         };
         const personDisplayInfo = [];
         createPersonData(data);
